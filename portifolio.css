@@ -1,0 +1,63 @@
+/*estilos de navegações*/
+header{
+    color: rgb(214, 67, 168);
+    background-color: rgb(35, 33, 34);
+    text-align: center;
+}
+nav{
+    background-color: rgb(73, 239, 222);
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+
+}
+nav ul li a {
+    color: rgb(67, 3, 68);
+    text-decoration: none;
+    padding: 5px;
+    transition: color 0.3s ease;
+
+}
+nav ul li a:hover{
+    color: rgb(105, 199, 240);
+}
+
+/* estilo gerais*/
+body{
+    background-color: rgb(151, 149, 149);
+    text-align: justify;
+}
+
+section{
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+article{
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: rgb(203, 28, 183);
+    color: rgb(53, 4, 87);
+    padding: 20px;
+    text-align: center;
+}
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;}
+
+footer ul li{ 
+    display: inline-block;
+    margin-right: 10px;
+}
